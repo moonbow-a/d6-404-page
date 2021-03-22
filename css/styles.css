@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue !important;
+}
+
+h1 {
+  text-align: center;
+}
+
+.nav-link {
+  color: #50b7d1;
+}
+
+.image {
+  margin-top: 5rem !important;
+  height: 22rem !important;
+  width: auto !important;
+}
+
+.btn-outline-info {
+  border-color: black !important;
+  color: #50b7d1 !important;
+}
+
+.btn {
+  border: 3px solid black !important;
+}
+
+footer {
+  padding-top: 3rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 1028px) {
+  body {
+    position: static;
+    transform: rotate(0);
+  }
+}
